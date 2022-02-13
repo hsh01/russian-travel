@@ -1,10 +1,14 @@
 .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto 92px;
-    width: 1184px;
     height: 740px;
+    max-width: 1184px;
     background: url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
     box-shadow: inset 0 0 0 2000px rgba(42, 44, 47, 0.3);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .cover:hover {

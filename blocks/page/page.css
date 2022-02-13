@@ -17,3 +17,9 @@
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}

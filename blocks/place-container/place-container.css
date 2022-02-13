@@ -4,4 +4,12 @@
     display: grid;
     grid-template-areas: "title website" "image text";
     gap: 48px 40px;
+    grid-template-columns: 460px 484px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place-container {
+        gap: 48px 32px;
+        grid-template-columns: 440px 456px;
+    }
 }
