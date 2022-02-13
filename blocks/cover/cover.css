@@ -2,6 +2,12 @@
     margin: 0 auto 92px;
     width: 1184px;
     height: 740px;
-    background: linear-gradient(0deg, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+    background: url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(42, 44, 47, 0.3);
     background-size: cover;
+}
+
+.cover:hover {
+    box-shadow: inset 0 0 0 2000px rgba(42, 44, 47, 0.8);
+    transition: box-shadow 0.3s linear 0.15s;
 }

@@ -5,3 +5,8 @@
     text-decoration: none;
     margin-right: 18px;
 }
+
+.footer__menu-link:hover {
+    opacity: 80%;
+    transition: opacity 0.5s linear 0.15s;
+}
