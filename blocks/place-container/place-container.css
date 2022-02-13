@@ -1,0 +1,8 @@
+.place-container {
+    width: 984px;
+    margin: 0 auto 80px;
+    display: grid;
+    /* grid-template-columns: 460px 484px; */
+    grid-template-areas: "title website" "image text";
+    gap: 48px 40px;
+}
