@@ -10,3 +10,11 @@
     opacity: 80%;
     transition: opacity 0.5s linear 0.15s;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__menu-link {
+        margin: 0;
+        font-size: 1.4rem;
+        line-height: 1;
+    }
+}

@@ -4,5 +4,19 @@
     font-size: 4.5rem;
     line-height: 1.06;
     grid-area: title;
-    max-width: 460px;
+}
+
+@media screen and (max-width: 768px) {
+    .place-container__title {
+        font-size: 2.625rem;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place-container__title {
+        font-size: 2rem;
+        line-height: 1.09;
+        padding-left: 16px;
+    }
 }

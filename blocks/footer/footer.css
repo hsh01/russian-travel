@@ -4,3 +4,10 @@
     justify-content: space-between;
     max-width: calc(100% - 96px);
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: calc(100vw - 32px);
+        flex-direction: column;
+    }
+}

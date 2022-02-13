@@ -1,3 +1,9 @@
 .place-container__text {
     grid-area: text;
 }
+
+@media screen and (max-width: 320px) {
+    .place-container__text {
+        margin-left: 16px;
+    }
+}

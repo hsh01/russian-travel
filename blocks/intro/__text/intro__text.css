@@ -2,5 +2,5 @@
     margin: 0 0 33px;
     line-height: 1.63;
     text-align: left;
-    width: 690px;
+    max-width: 690px;
 }
