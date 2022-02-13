@@ -1,0 +1,7 @@
+.cover {
+    margin: 0 auto 92px;
+    width: 1184px;
+    height: 740px;
+    background: linear-gradient(0deg, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+    background-size: cover;
+}
