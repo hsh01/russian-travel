@@ -11,7 +11,8 @@
 }
 
 .page {
-    background: #2A2C2F;
+    color: white;
+    background-color: #2A2C2F;
     min-width: 1280px;
     margin: 0 auto;
     font-family: 'Inter', Arial, sans-serif;
