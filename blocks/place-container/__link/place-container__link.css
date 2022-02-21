@@ -5,8 +5,3 @@
     color: #FFFFFF;
     margin: 0;
 }
-
-.place-container__link:hover {
-    opacity: 80%;
-    transition: opacity 0.5s linear 0.15s;
-}

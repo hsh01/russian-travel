@@ -7,11 +7,10 @@
     padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .footer__menu-links {
-        max-width: calc(100vw - 32px);
         flex-direction: column;
-        height: 248px;
         margin-bottom: 48px;
+        gap: 32px;
     }
 }

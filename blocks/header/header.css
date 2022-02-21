@@ -9,10 +9,16 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        margin: 0 3.125vw;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header {
         height: 42px;
-        margin: 0 16px;
+        margin: 0 5vw;
         padding-top: 16px;
     }
 }

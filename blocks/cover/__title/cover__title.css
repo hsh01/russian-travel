@@ -5,12 +5,15 @@
     line-height: 1.06;
     text-align: center;
     margin: 0 auto 32px;
+    z-index: 2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__title {
-        font-size: 2rem;
+        font-size: 10vw;
+        max-width: calc(100% * .7);
         line-height: 1.09;
-        max-width: 288px;
+        margin-bottom: 16px;
+        width: 70vw;
     }
 }

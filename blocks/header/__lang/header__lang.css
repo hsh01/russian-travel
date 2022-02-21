@@ -1,1 +1,5 @@
-.header__lang {}
+.header__lang {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
